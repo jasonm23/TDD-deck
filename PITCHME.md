@@ -2,7 +2,7 @@
 
 # Red -> Green -> Refactor -> repeat.
 
-- - -
+---
 
 # Red
 Write a small test.
@@ -19,25 +19,25 @@ Remove duplication and clean up.
 
 Use the test to verify that nothing breaks.
 
-- - -
+---
 
 # How does TDD help us write better code?
 
-- - -
+---
 
 # By writing just enough?
 
-- - -
+---
 
 # What to test?
 
-- - -
+---
 
 # Types of tests...
 
 Testing triangle
 
-- - -
+---
 
 # Let's concentrate on Unit Tests...
 
@@ -51,23 +51,23 @@ They _only_ work **really**  well together.
 
 (they're still valuable on their own, just less so.)
 
-- - -
+---
 
 # How does TDD promote good architecture?
 
-- - -
+---
 
 # Focus on the subject under test
 
-- - -
+---
 
 # Fake the rest...
 
-- - -
+---
 
 # Test doubles
 
-- - -
+---
 
 # Tell don't ask
 
@@ -75,23 +75,23 @@ Doesn't work well with people, and sounds nasty.
 
 Don't try this next time you want someone to help you!
 
-- - -
+---
 
 Works great for ~~objects~~ machines that operate on protocols...
 
-- - -
+---
 
 When we fake objects we don't have to worry about a host of issues...
 
-- - -
+---
 
 Loose coupling and _helps_ us adhere to S.O.L.I.D
 
-- - -
+---
 
 # SOLID
 
-- - -
+---
 
 - **S**ingle responsibility
 - **O**pen Closed principle (extensible but not modifyable)
@@ -99,37 +99,37 @@ Loose coupling and _helps_ us adhere to S.O.L.I.D
 - **I**nversion of control ()
 - **D**erp
 
-- - -
+---
 
 # Dependency injection...
 
 Simply passing dependencies to objects.
 
-- - -
+---
 
 Does not need a framework... but...
 
-- - -
+---
 
 One moment...
 
-- - -
+---
 
 # A little bit about rolling mocks by hand...
 
-- - -
+---
 
 # frameworks can hide knowledge
 
 Who loves not being sure why something works?
 
-- - -
+---
 
 # frameworks can preserve your sanity
 
 Who loves repeating tedious work?
 
-- - -
+---
 
 # Types of test double...
 
@@ -138,14 +138,14 @@ Who loves repeating tedious work?
 - Stubs
 - Spies
 
-- - -
+---
 
 # Fakes
 
 A Fake Object is a simpler implementation of a dependency without side effects
 we decide we don't care about.
 
-- - -
+---
 
 # Fake examples
 
@@ -157,7 +157,7 @@ we decide we don't care about.
 
 - Fake service layer
 
-- - -
+---
 
 # Mocks
 
@@ -169,13 +169,13 @@ we decide we don't care about.
 
 - We ensure the Mock Object is used by the subject instead of the real implementation (dependency injection is useful here)
 
-- - -
+---
 
 # Stubs
 
 Stub objects implements the same interface as a subject dependency. (deja vu)
 
-- - -
+---
 
 # Subtle difference between stubs and mocks...
 
@@ -183,7 +183,7 @@ Stub objects implements the same interface as a subject dependency. (deja vu)
 
 - If they don't do this, they're not Mocks (they're stubs)
 
-- - -
+---
 
 # Types of stubs...
 
@@ -207,7 +207,7 @@ Refactor hardcoded stubs to provide configuration behavior
 
 e.g. Clock
 
-- - -
+---
 
 # Spies
 
@@ -217,6 +217,6 @@ goes on to call a real implementation.
 - We can use these instead of classic mocks and stubs
 - Be careful to ensure that unit tests are not too brittle / use few concrete colaborators (if any)
 
-- - -
+---
 
 # That's all for now...

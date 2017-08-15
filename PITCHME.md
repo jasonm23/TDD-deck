@@ -33,7 +33,7 @@ Run the test to verify that nothing breaks.
 # How does TDD help us write better code?
 
 - Tests generate code
-- Help focus on the API of the object
+- Help focus on the API of the **subject**
 - Help us be SOLID
 
 ---

@@ -32,9 +32,17 @@ Run the test to verify that nothing breaks.
 
 # How does TDD help us write better code?
 
+---
+
 - Tests generate code
 - Help focus on the API of the **subject**
 - Help us be SOLID
+
+---
+
+> “Code without tests is bad code. It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don't know if our code is getting better or worse.”
+
+Michael C. Feathers (Working Effectively with Legacy Code)
 
 ---
 
@@ -144,6 +152,43 @@ One moment...
 
 ---
 
+Some other principles...
+
+---
+
+# DRY
+
+Do Not Repeat Yourself
+
+Every piece of knowledge must have a single unambiguous representation within a system.
+
+---
+
+# Law of Demeter
+
+Objects should assume as little as possible about the structure or properties of anything else.
+
+(very similar to Liskov)
+
+---
+
+# YAGNI
+
+You ain't gonna need it...
+
+Only write code that satifies a specification
+
+(spec is a good word for test when we're talking TDD)
+
+---
+
+TDD
+
+Could be thought of as TODO Driven Development
+
+(in a way!)
+
+---
 # A little bit about rolling mocks by hand...
 
 ---

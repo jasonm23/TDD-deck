@@ -46,6 +46,12 @@ Michael C. Feathers (Working Effectively with Legacy Code)
 
 ---
 
+> "TDD is only important if you want your code to work"
+
+Kent Beck
+
+---
+
 # TDD doesn't solve everything
 
 nothing ever does..!

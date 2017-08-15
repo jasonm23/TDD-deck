@@ -2,7 +2,6 @@
 
 ![](rgr.png)
 
-
 ---
 
 `while(tdd) { Red -> Green -> Refactor }`

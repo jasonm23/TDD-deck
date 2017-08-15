@@ -1,6 +1,11 @@
 # TDD
 
-# Red -> Green -> Refactor -> repeat.
+![](rgr.png)
+
+
+---
+
+`while(tdd) { Red -> Green -> Refactor }`
 
 ---
 
@@ -9,10 +14,14 @@ Write a small test.
 
 Run it, watch it fail.
 
+---
+
 # Green
 write just enough code to pass this test.
 
 Run it, watch it pass.
+
+---
 
 # Refactor
 Remove duplication and clean up.
@@ -23,19 +32,39 @@ Use the test to verify that nothing breaks.
 
 # How does TDD help us write better code?
 
----
-
-# By writing just enough?
-
----
-
-# What to test?
+- Tests generate code
+- Help focus on the API of the object
+- Help us be SOLID
 
 ---
 
-# Types of tests...
+# TDD doesn't solve everything
 
-Testing triangle
+nothing ever does..!
+
+---
+
+# Ratchet
+
+---
+
+![](ratchet.jpg)
+
+---
+
+TDD helps us to keep our focus on a single unit
+
+---
+
+Each unit we pass through TDD, we can have a good degree of confidence
+
+---
+
+It's like using a ratchet to help us take the strain.
+
+---
+
+![](ratchet.jpg)
 
 ---
 
@@ -57,7 +86,7 @@ They _only_ work **really**  well together.
 
 ---
 
-# Focus on the subject under test
+# Focus on the **subject** under test
 
 ---
 
@@ -81,7 +110,7 @@ Works great for ~~objects~~ machines that operate on protocols...
 
 ---
 
-When we fake objects we don't have to worry about a host of issues...
+When we fake objects we don't have to worry about a host of issues, and neither does our **subject**
 
 ---
 
@@ -161,19 +190,19 @@ we decide we don't care about.
 
 # Mocks
 
-- Mock Object implements the same interface as a subject dependency.
+- Mock Object implements the same interface as a **subject** dependency.
 
-- When we setup the test, configure the Mock Object with the values which it should respond to the subject.
+- When we setup the test, configure the Mock Object with the values which it should respond to the **subject**.
 
-- Also configure method calls (and expected arguments) to expect from the subject
+- Also configure method calls (and expected arguments) to expect from the **subject**
 
-- We ensure the Mock Object is used by the subject instead of the real implementation (dependency injection is useful here)
+- We ensure the Mock Object is used by the **subject** instead of the real implementation (dependency injection is useful here)
 
 ---
 
 # Stubs
 
-Stub objects implements the same interface as a subject dependency. (deja vu)
+Stub objects implements the same interface as a **subject** dependency. (deja vu)
 
 ---
 
@@ -189,11 +218,11 @@ Stub objects implements the same interface as a subject dependency. (deja vu)
 
 - Responder
 
-Just respond with a value the subject needs (happy path)
+Just respond with a value the **subject** needs (happy path)
 
 - Saboteur
 
-Respond with an invalid value, to help ensure the subject will handle it.
+Respond with an invalid value, to help ensure the **subject** will handle it.
 
 - Entity chain snipping ...
 
@@ -220,3 +249,7 @@ goes on to call a real implementation.
 ---
 
 # That's all for now...
+
+---
+
+![](rgr.png)

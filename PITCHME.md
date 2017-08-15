@@ -23,9 +23,10 @@ Run it, watch it pass.
 ---
 
 # Refactor
+
 Remove duplication and clean up.
 
-Use the test to verify that nothing breaks.
+Run the test to verify that nothing breaks.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ---
 
-`while(tdd) { Red -> Green -> Refactor }`
+`Red -> Green -> Refactor (repeat)`
 
 ---
 

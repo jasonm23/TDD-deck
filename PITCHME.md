@@ -86,15 +86,23 @@ It's like using a ratchet to help us take the strain.
 
 # Let's concentrate on Unit Tests...
 
-A Single unit of "business value"
+---
 
-Much easier to define when we test first, and write from a story.
+## What is a unit
 
-XP and TDD were conceived as co-practices.
+a Single unit of "business value"
+
+---
+
+Easy to define a unit when we write a story
+
+---
+
+(XP and TDD were conceived as co-practices.)
+
+---
 
 They _only_ work **really**  well together.
-
-(they're still valuable on their own, just less so.)
 
 ---
 
@@ -102,10 +110,17 @@ They _only_ work **really**  well together.
 
 ---
 
-# Focus on the **subject** under test
+# Focus on the **subject under test**
 
 ---
 
+That is don't be concerned with the behavior of dependencies
+
+---
+
+What do we do with dependencies?
+
+---
 # Fake the rest...
 
 ---
@@ -121,12 +136,19 @@ Doesn't work well with people, and sounds nasty.
 Don't try this next time you want someone to help you!
 
 ---
+# Tell don't ask
 
-Works great for ~~objects~~ machines that operate on protocols...
+Does works well for ~~objects~~ machines that operate on protocols
+
+--- 
+
+They should inherently follow our rules
 
 ---
 
-When we fake objects we don't have to worry about a host of issues, and neither does our **subject**
+When we fake objects we don't have to worry about a class of problems.
+
+(... neither does our **subject under test**)
 
 ---
 
@@ -190,13 +212,6 @@ Only write code that satifies a specification
 
 ---
 
-TDD
-
-Could be thought of as TODO Driven Development
-
-(in a way!)
-
----
 # A little bit about rolling mocks by hand...
 
 ---
@@ -207,9 +222,13 @@ Who loves not being sure why something works?
 
 ---
 
-# frameworks can preserve your sanity
+# frameworks will preserve your sanity
 
 Who loves repeating tedious work?
+
+---
+
+# Go fast, but know what's happening!
 
 ---
 
@@ -238,6 +257,10 @@ we decide we don't care about.
 - Fake web service - (Homework: also see API contract testing...)
 
 - Fake service layer
+
+- Fake system clock
+
+- Fake hardware devices...
 
 ---
 
@@ -283,11 +306,7 @@ A responder that replaces a complex set of objects, usually built for a single t
 
 - Configurable
 
-Refactor hardcoded stubs to provide configuration behavior
-
-- System...
-
-e.g. Clock
+Refactor hardcoded stubs to provide configuration behavior (they can become mocks)
 
 ---
 

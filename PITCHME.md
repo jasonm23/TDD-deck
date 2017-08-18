@@ -70,7 +70,9 @@ TDD helps us to keep our focus on a single unit
 
 ---
 
-Each unit we pass through TDD, we can have a good degree of confidence
+For each unit we pass through TDD.
+
+We can be confident it passes the tests we define
 
 ---
 

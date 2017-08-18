@@ -34,9 +34,9 @@ Run the test to verify that nothing breaks.
 
 ---
 
-- Tests generate code
-- Help focus on the API of the **subject**
-- Help us be SOLID
+- Tests describe the code
+- Keeps focus on the **subject under test (SUT)**
+- Help us write **SOLID** code
 
 ---
 

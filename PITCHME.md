@@ -163,26 +163,12 @@ Loose coupling and _helps_ us adhere to S.O.L.I.D
 - **S**ingle responsibility
 - **O**pen Closed principle (extensible but not modifyable)
 - **L**iskov substitution principle (we can use a substitute without knowing it)
-- **I**nversion of control ()
-- **D**erp
+- **I**nversion of control (TDD isn't helping here)
+- **D**ependency injection (or here!)
 
 ---
 
-# Dependency injection...
-
-Simply passing dependencies to objects.
-
----
-
-Does not need a framework... but...
-
----
-
-One moment...
-
----
-
-Some other principles...
+A few other principles that TDD helps us with...
 
 ---
 
@@ -206,29 +192,11 @@ Objects should assume as little as possible about the structure or properties of
 
 You ain't gonna need it...
 
-Only write code that satifies a specification
-
-(spec is a good word for test when we're talking TDD)
+Why we only write code that satifies a specification
 
 ---
 
-# A little bit about rolling mocks by hand...
-
----
-
-# frameworks can hide knowledge
-
-Who loves not being sure why something works?
-
----
-
-# frameworks will preserve your sanity
-
-Who loves repeating tedious work?
-
----
-
-# Go fast, but know what's happening!
+...So we were talking about faking
 
 ---
 

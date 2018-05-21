@@ -42,6 +42,14 @@
 
 ---
 
+Think of dependencies like clothes for your object
+
+---
+
+They want to wear whatever shirt they want to!
+
+---
+
 # The alternative is pain
 
 - Tight coupling of objects
@@ -52,11 +60,7 @@
 
 ---
 
-# Domino efffect
-
-- Make a change leads to unwanted effects
-- Wasted time
-- Expensive!
+- Like a clothes that were stitched so tightly around you that you can't take them off!
 
 ---
 

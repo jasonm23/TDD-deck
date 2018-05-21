@@ -42,14 +42,6 @@
 
 ---
 
-Think of dependencies like clothes for your object
-
----
-
-They want to wear whatever shirt they want to!
-
----
-
 # The alternative is pain
 
 - Tight coupling of objects
@@ -60,19 +52,9 @@ They want to wear whatever shirt they want to!
 
 ---
 
-Like a clothes that were stitched so tightly around you that you can't take them off!
-
----
-
-# TDD..?
-
----
-
 # Test First Design
 
-is what TDD was originally called...
-
-(...I wish we'd stuck with that!)
+What TDD was originally called. ...I wish we'd stuck with that.
 
 ---
 
@@ -90,15 +72,11 @@ is what TDD was originally called...
 
 ---
 
-Your tests are a living document
+It has to make sense because your test describes your object.
 
 ---
 
-It has to make sense!
-
----
-
-Good tests grow the code and enforce clean design, and cohesive purpose.
+Good tests grow the code and enforce clean design
 
 ---
 
@@ -116,7 +94,7 @@ Mocks, Stubs, Fakes, Spies
 
 # Mocks grow up!
 
-They spawn subjects they were pretending to be!
+They can often spawn the new objects they were pretending to be!
 
 ---
 
@@ -130,20 +108,31 @@ They spawn subjects they were pretending to be!
 
 # Tell don't ask
 
-Works well for machines that operate on protocols
-
-(don't do this with people tho!)
+Send a message and verify it was sent (using our test double)
 
 ---
 
-When we fake objects we don't have to worry about a whole range of problems.
-
-(... neither does our **subject under test**)
+The unit test shouldn't test what the object doesn't do directly.
 
 ---
 
-Turns out we neved needed to worry about those problems when objects
-are decoupled
+# Testing Pyramid
+
+---
+
+![](PYRAMID.jpg)
+
+---
+
+# Integration tests
+
+Cover collaboration of objects and services (fakes)
+
+---
+
+# e2e
+
+Test the full stack
 
 ---
 

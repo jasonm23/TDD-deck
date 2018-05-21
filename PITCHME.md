@@ -60,7 +60,7 @@ They want to wear whatever shirt they want to!
 
 ---
 
-- Like a clothes that were stitched so tightly around you that you can't take them off!
+Like a clothes that were stitched so tightly around you that you can't take them off!
 
 ---
 

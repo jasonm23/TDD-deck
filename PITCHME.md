@@ -42,14 +42,6 @@
 
 ---
 
-Think of dependencies like clothes for your object
-
----
-
-They want to wear whatever shirt they want to!
-
----
-
 # The alternative is pain
 
 - Tight coupling of objects
@@ -60,19 +52,9 @@ They want to wear whatever shirt they want to!
 
 ---
 
-Like a clothes that were stitched so tightly around you that you can't take them off!
-
----
-
-# TDD..?
-
----
-
 # Test First Design
 
-is what TDD was originally called...
-
-(...I wish we'd stuck with that!)
+What TDD was originally called. ...I wish we'd stuck with that.
 
 ---
 

@@ -83,7 +83,17 @@ Good tests grow the code and enforce clean design
 
 ---
 
-Dependencies / Collaborative objects?
+# Dependencies / Collaborative objects?
+
+---
+
+The unit test shouldn't test what the object doesn't do directly.
+
+---
+
+# Tell don't ask
+
+Send a message and verify it was sent (using our test double)
 
 ---
 
@@ -106,16 +116,6 @@ They can often spawn the new objects they were pretending to be!
 ---
 
 # Wrap difficult dependencies
-
----
-
-# Tell don't ask
-
-Send a message and verify it was sent (using our test double)
-
----
-
-The unit test shouldn't test what the object doesn't do directly.
 
 ---
 

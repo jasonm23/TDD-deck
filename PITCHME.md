@@ -93,7 +93,15 @@ The unit test shouldn't test what the object doesn't do directly.
 
 # Tell don't ask
 
-Send a message and verify it was sent (using our test double)
+---
+
+Verify that calls are made, not what happens after.
+
+You shouldn't need to know what a dependency does with a message.
+
+---
+
+(to get that decoupling goodness)
 
 ---
 

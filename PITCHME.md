@@ -113,17 +113,23 @@ Mocks, Stubs, Fakes, Spies
 
 ---
 
-# Mocks grow up!
+# Mocks can evolve
 
-They can often spawn the new objects they were pretending to be!
+They can turn into the objects they were pretending to be!
+
+---
+
+(adhereing to interfaces / protocols)
 
 ---
 
 # Only test what you own
 
+Wrap difficult third party dependencies
+
 ---
 
-# Wrap difficult dependencies
+blank page
 
 ---
 

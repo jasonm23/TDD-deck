@@ -45,13 +45,27 @@
 
 ---
 
-# The alternative is pain
+The alternative is pain
 
-- Tight coupling of objects
-- More difficult to understand
-- Hard to change
-- Hard to fix
-- Easy to break!
+---
+
+Tight coupling of objects
+
+---
+
+More difficult to understand
+
+--- 
+
+Hard to change
+
+---
+
+Hard to fix
+
+---
+
+Bugs show up more often
 
 ---
 
@@ -61,13 +75,15 @@ What TDD was originally called. ...I wish we'd stuck with that.
 
 ---
 
-# Start with modules
+# Starts with modules
 
 ---
 
 # Decoupled by Design
 
-- Only test the subject
+---
+
+Only test the subject
 
 ---
 
@@ -75,7 +91,11 @@ What TDD was originally called. ...I wish we'd stuck with that.
 
 ---
 
-It has to make sense because your test describes your object.
+Your spec has to make sense!
+
+---
+
+(otherwise how can you pass it?)
 
 ---
 
@@ -154,6 +174,18 @@ Cover collaboration of objects and services (fakes)
 # e2e
 
 Test the full stack
+
+---
+
+This is all just one way to approach the subject of TDD.
+
+---
+
+There's a lot of ways to look at testing and TDD.
+
+---
+
+So feed your head!
 
 ---
 
